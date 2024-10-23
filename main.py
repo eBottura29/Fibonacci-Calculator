@@ -34,7 +34,7 @@ if __name__ == "__main__":
     print(f"Aimed for {time_to_calculate} seconds.")
     print("Saving to file...")
 
-    with open("largest_num.txt", "w") as f:
+    with open("largest_num_pc.txt", "w") as f:
         f.write(str(fib_list[-1]))
 
     sys.exit("Done saving to file.")
