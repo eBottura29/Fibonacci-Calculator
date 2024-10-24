@@ -18,6 +18,8 @@ def fibonacci(max_time):
             return numbers, time.time() - start
         except MemoryError:
             return numbers, time.time() - start
+        except KeyboardInterrupt:
+            return numbers, time.time() - start
 
     return numbers, time.time() - start
 
